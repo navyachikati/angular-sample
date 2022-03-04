@@ -7,7 +7,7 @@
   <li>Formhandling</li>
   <li>Routing</li>
 </ul>
-<div>{{siteName}}</div> <! –– interpolation or expression ––> 
+<div>{{siteName}}</div>  
  <div *ngIf = "true">NgIfDirective</div>
  <div *ngIf = "!isChecked">NgIfDirective2</div>
 <ul >
@@ -33,7 +33,6 @@
       <li>Bootstrap</li>
     </ul>
   </div>
-  
   <div *ngSwitchCase="'MEAN'">
     <h2>MEANSTACK</h2>
     <ul>
@@ -57,4 +56,6 @@
 <h1>Angular module tutorial</h1>
 <app-login></app-login>
 <app-signup></app-signup>
+<div [hidden="true"]>HiddenDirective</div>
+
 
